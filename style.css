@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+.nav-links{
+    display: flex;
+    gap: 2rem;
+    list-style:none;
+    font-family: 'Gilroy';
+
+}
+
+.nav-func{
+    display: flex;
+    gap: 2rem;
+    list-style:none;
+    font-family: 'Gilroy';
+}
+.link a{
+    color: #999;
+    text-decoration: none;
+}
+.select a{
+    color: #00A000;
+}
+.func .bt{
+    background-color: transparent;
+    border: 1.5px solid #00A000;
+    padding: 16px 32px;
+    border-radius: 10px;
+    color: #00A000;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+.func .bt:hover{
+    background-color: #00A000;
+    color: #fff;
+    border: 1.5px solid rgb(255, 255, 255);
+    padding: 20px 36px;
+}
+
+
+.intro{
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    img{
+        width: 650px;
+    }
+}
+.intro .txt{
+    h1{
+        width: 560px;
+        font-family: 'Gilroy';
+        color: #000001;
+        margin: 16px 0;
+        font-size: 60px;
+        span{
+            color: #00A000;
+        }
+    }
+    p{
+        font-family: 'Gilroy';
+        color: #999;
+        font-size: 18px;
+        width: 450px;
+        margin: 32px 0;
+        font-weight: 500;
+
+    }
+    .buttons{
+        display: flex;
+        gap: 32px;
+        .but1{
+            padding: 16px 32px;
+            background-color: #00A000;
+            color: #fff;
+            font-family: 'Gilroy';
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+        .but2{
+            background-color: transparent;
+            border: 1.5px solid #00A000;
+            padding: 16px 32px;
+            border-radius: 10px;
+            color: #00A000;
+            text-decoration: none;
+            font-family: 'gilroy';
+            font-weight: 600;
+            transition: all 0.5s;
+        }
+    }
+}
+.inf{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    margin: 200px 0;
+}
+.inf .content{
+    width: 400px;
+    display: grid;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'gilroy';
+    img{
+        width: 216px;
+        height: 216px;
+        margin-left: 56px;
+    }
+    h1{
+        font-size: 28px;
+    }
+    p{
+        font-size: 18px;
+        color: #999;
+        font-weight: 500;
+        width: 272px;
+    }
+    .nbr{
+        margin-top: 40px;
+        h1{
+            font-size: 48px;
+        }
+    }
+    a{
+        padding: 16px 140px;
+        background-color: #00A000;
+        color: #fff;
+        font-family: 'Gilroy';
+        font-weight: 600;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+}
+.txt-wcu{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.wcu{
+    font-size: 48px;
+    text-align: center;
+    font-family: 'gilroy';
+    color: #000001;
+
+}
+.desc-wcu{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'gilroy';
+    color: #999;
+}
+.subscribe{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 140px;
+    h1{
+        margin-top: 80px;
+        font-size: 48px;
+        text-align: center;
+        font-family: 'gilroy';
+        color: #000001;
+    }
+    p{
+        text-align: center;
+        font-size: 18px;
+        font-family: 'gilroy';
+        color: #999; 
+        margin-bottom: 40px;
+    }
+    div{
+        display: flex;
+        height: 70px;
+        justify-content: space-between;
+        width: 700px;
+        background-color: transparent;
+        border: 1.5px solid #000001;
+        padding: 16px 32px;
+        border-radius: 10px;
+        color: #000001;
+        text-decoration: none;
+        font-weight: 600;
+        transition: all 0.5s;
+        a{
+            padding: 8px 32px;
+            background-color: #00A000;
+            color: #fff;
+            font-family: 'Gilroy';
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+        input{
+            text-decoration:none;
+            border: none;
+        }
+    }
+
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #00A000;
+    padding: 100px;
+    color: #fff;
+    font-family: 'Gilroy';
+    .sec{
+
+    }
+}
